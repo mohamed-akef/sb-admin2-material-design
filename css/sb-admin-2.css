@@ -21,7 +21,7 @@ body {
 @media(min-width:768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 250px 0 0;
+        margin: 0 0 0 250px;
         padding: 0 30px;
         border-right: 1px solid #e7e7e7;
     }
@@ -38,8 +38,13 @@ body {
 .navbar-top-links li a {
     padding: 15px;
     min-height: 50px;
+        color: #fff;
 }
-
+.navbar-top-links li a:hover, 
+.navbar-top-links li a:active,
+.navbar-top-links li a:focus {
+    color: #009688;
+}
 .navbar-top-links .dropdown-menu li {
     display: block;
 }
@@ -50,6 +55,7 @@ body {
 
 .navbar-top-links .dropdown-menu li a {
     padding: 3px 20px;
+    color: #000;
     min-height: 0;
 }
 
@@ -77,10 +83,15 @@ body {
 }
 
 .navbar-top-links .dropdown-user {
-    left: 0;
-    right: auto;
+    right: 0;
+    left: auto;
 }
-
+.navbar .navbar-brand {
+    position: relative;
+    height: 50px;
+    line-height: 19px;
+    color: inherit;
+}
 .sidebar .sidebar-nav.navbar-collapse {
     padding-left: 0;
     padding-right: 0;
@@ -350,4 +361,17 @@ table.dataTable thead .sorting:after {
 }
 .btn-group, .btn-group-vertical{
     margin:0;
+}
+.navbar-top-links {
+    margin-right: 0;
+}
+
+
+form .form-control:focus, 
+form .form-control.focus {
+    outline: none;
+    background-image: linear-gradient(#009688,#009688),linear-gradient(#d2d2d2,#d2d2d2);
+    background-size: 100% 2px,100% 1px;
+    box-shadow: none;
+    transition-duration: .3s;
 }
