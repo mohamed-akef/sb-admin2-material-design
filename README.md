@@ -1,10 +1,8 @@
--sb-admin2
-==========
+This repository contains HTML for the project sb-admin2 Bootstrap based Material Design Admin Template.
+Technologies Used:
 
-this is an RTL Version of  sb-admin2 Template, one of free template series odf startbootstrap.com .
+- HTML5/CSS3 
+- Bootstrap 
+- Material Design
 
-sb admin2 without material design https://github.com/mohamed-akef/sb-admin2 .
-
-RTL main project  https://github.com/poormonfared/sb-admin2 .
-
-bootstrap material design project http://fezvrasta.github.io/bootstrap-material-design .
+Bootstrap based Material Design Project http://fezvrasta.github.io/bootstrap-material-design
